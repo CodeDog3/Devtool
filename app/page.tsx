@@ -4,10 +4,9 @@ import Login from "./(HomeComponents)/Login";
 
 export default function Home() {
   return (
-    <div>
+    <div className="h-dvh">
       <HomeNav />
       <div className="flex justify-center mt-3">
-        <Login />
       </div>
     </div>
   );
